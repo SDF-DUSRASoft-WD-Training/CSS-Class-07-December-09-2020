@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login-page{
+    background-color: #EFF1F4;
+}
+
+.facebook-page{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    padding: 150px 0px;
+}
+
+.column{
+    width: 50%;
+}
+
+.right{
+    padding-left: 70px;
+}
+
+.login-box{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 10px #000000 */
+    /* box-shadow: laft-right top-bottm width/space color; */
+    box-shadow: 0px 0px 12px #e3c8c8;
+}
+
+/* form > input */
+/* form input */
+form input,
+form button{
+    width: 100%;
+    display: block;
+}
+
+form input{
+    padding: 14px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+form button{
+    padding: 14px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button{
+    padding: 14px;
+    background-color: #42b72a;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.border{
+    margin: 25px 0 36px 0;
+    border: 1px solid #e5dede;
+}
+
+.new-page{
+    text-align: center;
+}
